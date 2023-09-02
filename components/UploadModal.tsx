@@ -81,7 +81,7 @@ const UploadModal = () => {
         .insert({
           user_id: user.id,
           title: values.title,
-          auth : values.auth,
+          author : values.author,
           image_path : imagedata.path,
           song_path : songData.path
         });
