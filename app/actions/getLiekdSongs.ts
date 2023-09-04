@@ -41,4 +41,3 @@ const getLikedSongs = async (): Promise<Song[]> => {
 };
 
 export default getLikedSongs;
-
